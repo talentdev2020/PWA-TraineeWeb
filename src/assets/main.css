@@ -1,0 +1,60 @@
+
+@require '~vuetify/src/stylus/main.styl';
+
+.div_content {
+  width:40%;
+  margin: auto;
+
+  margin-top:20px;
+
+}
+.index-page{
+  min-height: 80vh;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.fixed{
+  margin:unset;
+  text-align: left;
+  padding-left:20px;
+}
+.image_middle {
+  vertical-align: middle;
+}
+.question_radio
+{
+  width:80px;
+}
+.red{
+  background:#f34d4d!important;
+}
+.green{
+  background:green!important;
+}
+.question_span{
+  width: 75%;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 5px;
+  border:1px solid lightgray;
+  text-align: left;
+  padding:3px;
+  float: left;
+}
+
+
+.question{
+  padding-top:20px;
+}
+.btn_answer{
+  margin: auto;
+  display: block;
+}
+@media screen and (max-width: 600px) {
+  .div_content {
+    width:90%;
+  }
+
+}

@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "tr-trainee-web-app",
+    "staging": "tr-trainee-web-app"
+  }
+}
